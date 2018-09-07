@@ -1,0 +1,231 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 24px;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+  margin-right: 64px;
+  font-weight: bold;
+}
+
+.pagelink-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.pagelink-link {
+  margin-right: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.search-container {
+  margin-left: auto;
+  margin-right: 32px;
+}
+
+input {
+  padding: 8px 16px;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.btn-secondary {
+  background-color: #f1f1f1;
+}
+
+.content {
+  margin-top: auto;
+  display: flex;
+  padding: 64px;
+  width: 100%;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.left {
+  width: 35%;
+  position: fixed;
+  bottom: 128px;
+}
+
+.intro-title {
+  font-size: 56px;
+  padding-bottom: 32px;
+  line-height: 65px;
+}
+
+.intro-paragraph {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 32px;
+  line-height: 30px;
+}
+
+.right {
+  background-color: #f1f1f1;
+  width: 50%;
+  position: fixed;
+  top: 90px;
+  right: 0;
+  bottom: 0;
+}
+
+.btn-primary {
+  background-color: #000c9e;
+  color: white;
+}
+
+.btn-learnmore {
+  padding: 16px 32px;
+}
