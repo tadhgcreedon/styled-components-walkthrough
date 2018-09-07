@@ -5,7 +5,7 @@ export const CoolImagesContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 16px;
-  max-width: 1000px;
+  ${"" /* max-width: 1000px; */};
 `;
 
 export const CoolImageContainer = styled.div`
