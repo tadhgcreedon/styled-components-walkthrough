@@ -196,13 +196,13 @@ button {
 .left {
   width: 35%;
   position: fixed;
-  bottom: 128px;
 }
 
 .intro-title {
   font-size: 56px;
   padding-bottom: 32px;
   line-height: 65px;
+  margin-top: 128px;
 }
 
 .intro-paragraph {
